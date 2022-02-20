@@ -7,7 +7,7 @@
   font-size: 0.7rem;
 }
 .navbar_section > p:hover {
-  color: rgb(0, 140, 255);
+  color: rgb(66, 189, 82);
   cursor: pointer;
   transition: 0.4s;
 }

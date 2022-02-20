@@ -26,7 +26,7 @@ const Product = (props) => {
             </CardText>
           </CardBody>
           <Button
-            color="primary"
+            color="success"
             className="d-flex justify-content-between mx-3 mb-3"
             onClick={props.onAddHandler}
           >

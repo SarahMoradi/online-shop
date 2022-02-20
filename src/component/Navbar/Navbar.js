@@ -7,14 +7,14 @@ const Menubar = (props) => {
     <div>
       <div className={`${styles.navbar_section}`}>
         <div className={`${styles.navbar_section}`}>
-          <FaCanadianMapleLeaf size={20} />
+          <FaCanadianMapleLeaf size={20} color="lightGreen" />
           <p className="px-4 pt-3">Store</p>
           <p className="px-4 pt-3">Products</p>
           <p className="px-4 pt-3">about</p>
         </div>
         <div className="d-flex">
           <div className={styles.badge}>
-            <Badge color="primary" pill>
+            <Badge color="success" pill>
               {props.total}
             </Badge>
           </div>
