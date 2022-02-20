@@ -1,0 +1,21 @@
+.navbar_section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: rgb(36, 35, 35);
+  color: #fff;
+  font-size: 0.7rem;
+}
+.navbar_section > p:hover {
+  color: rgb(0, 140, 255);
+  cursor: pointer;
+  transition: 0.4s;
+}
+.badge{
+  position: relative;
+  top: -10px;
+  left: 10px;
+}
+.cart_icon{
+  position: absolute;
+}
