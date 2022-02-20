@@ -28,6 +28,7 @@ const Product = (props) => {
           <Button
             color="primary"
             className="d-flex justify-content-between mx-3 mb-3"
+            onClick={props.onAddHandler}
           >
             <IoBagAdd size={20} />
             <p className="m-0">{props.price}</p>

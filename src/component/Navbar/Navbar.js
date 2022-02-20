@@ -2,7 +2,7 @@ import styles from "./Navbar.module.css";
 import { BiShoppingBag } from "react-icons/bi";
 import { FaCanadianMapleLeaf } from "react-icons/fa";
 import { Badge } from "reactstrap";
-const Menubar = () => {
+const Menubar = (props) => {
   return (
     <div>
       <div className={`${styles.navbar_section}`}>
@@ -15,7 +15,7 @@ const Menubar = () => {
         <div className="d-flex">
           <div className={styles.badge}>
             <Badge color="primary" pill>
-              0
+              {props.total}
             </Badge>
           </div>
           <div className={styles.cart_icon}>

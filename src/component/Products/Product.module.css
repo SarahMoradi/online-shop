@@ -10,7 +10,7 @@
 }
 .card_image {
   height: 110px;
-  padding: 10px;
+  padding: 10px 30px;
 }
 .card_style {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
