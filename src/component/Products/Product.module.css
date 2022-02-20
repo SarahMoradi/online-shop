@@ -1,0 +1,25 @@
+.header_subtitle {
+  color: rgb(136, 136, 136);
+  font-size: 14px;
+}
+.card_subtitle {
+  font-size: 12px;
+}
+.card_text {
+  font-size: 13px;
+}
+.card_image {
+  height: 110px;
+  padding: 10px;
+}
+.card_style {
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+.card_style:hover {
+  transition: 0.8s ease;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px,
+    rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  cursor: pointer;
+  border: 1px solid rgb(23, 70, 221);
+}
